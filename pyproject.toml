@@ -12,11 +12,15 @@ langchain-core = "^0.2.7"
 langchain-community = "^0.2.5"
 python-dotenv = "^1.0.1"
 streamlit = "^1.35.0"
-tenacity = "8.1.0"
+tenacity = "8.4.0"
 langserve = "^0.2.2"
 fastapi = "^0.111.0"
 uvicorn = "^0.30.1"
 sse-starlette = "^2.1.2"
+bs4 = "^0.0.2"
+pypdf = "^4.2.0"
+pinecone-client = "^4.1.1"
+faiss-cpu = "^1.8.0"
 
 
 [build-system]

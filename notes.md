@@ -20,3 +20,7 @@
 
 ---
 
+- **RAG (Retrieval Augmented Generation)** : is about querying from different data sources. The idea is to feed documents that can be in different formats to the LLM and then we can get back the information from LLM by asking questions.
+  1. Load Data Source / Data Ingestion : we basically load our data (can be in any format) from a source location, then we perform some transformation and convert the data into smaller chunks, also called as Context size. Finally go embed, meaning how we can convert all these data chunks into vectors. 
+  2. Vector Store: the embedded data is stored in the Vector store/database.
+  3. Retrieve most similar: when we ask questions to the LLM it will query the vector store to find the most relevant information.
